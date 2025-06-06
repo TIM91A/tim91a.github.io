@@ -1,0 +1,37 @@
+.zagolovok{
+	text-align: center;
+}
+
+
+.cknopka{
+	margin-top: 40px;
+	font-size: 25;
+	display: flex;
+	justify-content: center;
+}
+
+.knopka{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.block{
+	margin-top: 50px;
+	background-color: lightgray;
+	height: auto;
+	width: 530px;
+	font-size: 25px;
+	margin-bottom: 50px;
+	
+	/* сверху справа снизу слева */
+	padding: 20 5 5 20;
+}
+
+
+.content{
+	display: none;
+}
+
+.content:target{
+	display: block;
+}
